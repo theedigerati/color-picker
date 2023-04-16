@@ -11,14 +11,16 @@ Color picker is an [Arc Browser](https://arc.net) boost to select colors from an
 
 ## How to Use
 
-* Toggle the color picker with <kbd>CTRL</kbd> + <kbd>E</kbd>. You can change this in <code>content.js</code>
-* Click on the box to activate the eyedropper
+* On any webpage, toggle the color picker with <kbd>CTRL</kbd> + <kbd>E</kbd> (you can change this in <code>content.js</code>).
+* Click the color box on the bottom left of the page to activate the eyedropper mode.
 * Select any color you want on the browser or anywhere on your computer. 
-* It automatically copies the HEX to your clipboard. You can hit <kbd>ESC</kbd> to cancel the eyedropper mode
+* When you choose a color, its corresponding HEX code is saved to your clipboard and shown on the color box. 
+* To exit the eyedropper mode, you can press the <kbd>ESC</kbd> key.
 
 ## How to Install Boost
 
-* Click the "+" button the bottom right of your Arc sidebar
+* Install Arc browser.
+* Click the "+" button on the bottom right of your Arc sidebar
 * Select "New Boost" then select "custom"
 * Replace the <code>styles.css</code> and <code>content.js</code> with the ones on this repo
 * That's it!
